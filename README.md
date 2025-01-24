@@ -87,7 +87,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-[Choose an appropriate license, e.g., MIT License]
+@YeswanthSoma All Copyrights Reserved
 
 ## Disclaimer
 
