@@ -97,6 +97,7 @@ def update_password(vault, key):
         save_vault(vault)
         print(f"Password for {service} updated successfully!")
     else:
+# Added comment
         print("No record found for this service.")
 
 # Export all saved passwords
