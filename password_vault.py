@@ -32,6 +32,7 @@ def decrypt_data(data, key):
 def hash_password(password):
     return sha256(password.encode()).hexdigest()
 
+# Added comment
 # Load vault data
 def load_vault(file="vault.json"):
     if not os.path.exists(file):
