@@ -26,6 +26,7 @@ def encrypt_data(data, key):
 # Decrypt data
 def decrypt_data(data, key):
     fernet = Fernet(key)
+# Added comment
     return fernet.decrypt(data).decode()
 
 # Hash the master password
