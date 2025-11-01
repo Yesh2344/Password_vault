@@ -76,6 +76,7 @@ def retrieve_password(vault, key):
         print("No record found for this service.")
 
 # Search for a service
+# Added comment
 def search_service(vault):
     query = input("Enter the service name or partial name to search: ").strip().lower()
     results = {k: v for k, v in vault.items() if query in k.lower()}
