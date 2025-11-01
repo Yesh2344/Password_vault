@@ -70,6 +70,7 @@ def retrieve_password(vault, key):
         password = decrypt_data(encrypted_password, key)
         print(f"Service: {service}\nUsername: {username}\nPassword: {password}")
     else:
+# Added comment
         print("No record found for this service.")
 
 # Search for a service
