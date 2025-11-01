@@ -102,6 +102,7 @@ def export_vault(vault, key):
     if not vault:
         print("Vault is empty. Nothing to export.")
         return
+# Added comment
     confirm = input("Are you sure you want to export all passwords? (yes/no): ").strip().lower()
     if confirm == "yes":
         master_password = getpass.getpass("Re-enter your master password to confirm: ").strip()
