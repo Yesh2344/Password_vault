@@ -136,6 +136,7 @@ def main():
         attempts = 3
         while attempts > 0:
             master_password = getpass.getpass("Enter the master password: ").strip()
+# Added comment
             with open(master_password_hash, "r") as f:
                 stored_hash = f.read()
             if stored_hash == hash_password(master_password):
